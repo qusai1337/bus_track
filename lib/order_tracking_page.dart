@@ -26,6 +26,8 @@ class OrderTrackingPageState extends State<OrderTrackingPage> {
   BitmapDescriptor destinationIcon = BitmapDescriptor.defaultMarker;
   BitmapDescriptor currentLocationIcon = BitmapDescriptor.defaultMarker;
 
+  BitmapDes
+
   void getCurrentLocation() async {
     Location location = Location();
 
